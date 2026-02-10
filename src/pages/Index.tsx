@@ -1,12 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import FloatingHearts from "@/components/FloatingHearts";
+import NavRibbon from "@/components/NavRibbon";
+import HeroCounter from "@/components/HeroCounter";
+import LoveReasons from "@/components/LoveReasons";
+import PhotoSlideshow from "@/components/PhotoSlideshow";
+import LoveLetterReveal from "@/components/LoveLetterReveal";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="relative min-h-screen bg-background overflow-x-hidden">
+      <FloatingHearts />
+      <NavRibbon />
+      <HeroCounter />
+      <LoveReasons />
+      <PhotoSlideshow />
+      <LoveLetterReveal />
+
+      <footer className="py-8 text-center bg-rose-light">
+        <p className="font-handwritten text-xl text-primary/70">
+          Made with 💕 just for you
+        </p>
+      </footer>
     </div>
   );
 };
