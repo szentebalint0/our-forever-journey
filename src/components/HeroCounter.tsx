@@ -46,12 +46,12 @@ const HeroCounter = () => {
   }, []);
 
   const units = [
-    { value: elapsed.years, label: "years" },
-    { value: elapsed.months, label: "months" },
-    { value: elapsed.days, label: "days" },
-    { value: elapsed.hours, label: "hours" },
-    { value: elapsed.minutes, label: "minutes" },
-    { value: elapsed.seconds, label: "seconds" },
+    { value: elapsed.years, label: "év" },
+    { value: elapsed.months, label: "hónap" },
+    { value: elapsed.days, label: "map" },
+    { value: elapsed.hours, label: "óra" },
+    { value: elapsed.minutes, label: "perc" },
+    { value: elapsed.seconds, label: "másodperc" },
   ];
 
   return (
@@ -59,10 +59,10 @@ const HeroCounter = () => {
       bg-gradient-to-b from-rose-light via-card to-background overflow-hidden">
       <div className="relative z-10 text-center max-w-sm mx-auto">
         <p className="text-primary/70 text-sm tracking-[0.2em] uppercase mb-3">
-          Since February 11, 2023
+          2023.02.11, utazásunk kezdete
         </p>
         <h1 className="text-3xl sm:text-4xl font-bold text-foreground italic leading-tight mb-8">
-          The time since you said yes
+          Amióta igent mondtál
         </h1>
 
         <div className="grid grid-cols-3 gap-3 mb-6">
@@ -82,7 +82,7 @@ const HeroCounter = () => {
         </div>
 
         <p className="text-xl font-handwritten text-primary/80">
-          …and every second has been worth it 💕
+          …minden másodperc megérte 💕
         </p>
       </div>
     </section>

@@ -16,10 +16,10 @@ const LoveReasons = () => {
     <section id="notes" className="px-5 py-16 bg-gradient-to-b from-background to-rose-light">
       <div className="max-w-2xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-center text-foreground mb-2">
-          Reasons Why I Love You
+          Dolgok, amiért szeretlek
         </h2>
         <p className="text-center text-muted-foreground text-sm mb-10 font-handwritten text-lg">
-          Let me count the ways… 💕
+          Pár, a megszámlálhatatlanból… 💕
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

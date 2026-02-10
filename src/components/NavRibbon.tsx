@@ -7,9 +7,9 @@ const NavRibbon = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-primary/10 border-b border-primary/20">
       <div className="flex items-center justify-center gap-2 px-4 py-3 max-w-lg mx-auto">
         {[
-          { label: "Notes", id: "notes" },
-          { label: "Memories", id: "memories" },
-          { label: "Love Letter", id: "love-letter" },
+          { label: "Kártyák", id: "notes" },
+          { label: "Emlékek", id: "memories" },
+          { label: "Levél", id: "love-letter" },
         ].map((item) => (
           <button
             key={item.id}

@@ -8,10 +8,10 @@ const LoveLetterReveal = () => {
     <section id="love-letter" className="px-5 py-20 bg-gradient-to-b from-background to-rose-light">
       <div className="max-w-lg mx-auto text-center">
         <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-2">
-          A Letter For You
+          Levél, Neked
         </h2>
         <p className="text-muted-foreground font-handwritten text-lg mb-10">
-          Tap the heart to read it 💌
+          Nyomd meg az olvasáshoz 💌
         </p>
 
         {!revealed && (

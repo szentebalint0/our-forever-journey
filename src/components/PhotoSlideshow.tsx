@@ -42,10 +42,10 @@ const PhotoSlideshow = () => {
     <section id="memories" className="px-5 py-16 bg-gradient-to-b from-rose-light to-background">
       <div className="max-w-2xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-center text-foreground mb-2">
-          Our Memories
+          Emlékeink
         </h2>
         <p className="text-center text-muted-foreground font-handwritten text-lg mb-8">
-          Moments I'll cherish forever ✨
+          Ezekre örökké emlékezni fogunk ✨
         </p>
 
         <div
